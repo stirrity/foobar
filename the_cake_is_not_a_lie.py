@@ -10,18 +10,8 @@ To help you best cut the cake, you have turned the sequence of colors of the M&M
 
 Write a function called solution(s) that, given a non-empty string less than 200 characters in length describing the sequence of M&Ms, returns the maximum number of equal parts that can be cut from the cake without leaving any leftovers.
 
-Languages
-=========
-
-To provide a Python solution, edit solution.py
-To provide a Java solution, edit Solution.java
-
 Test cases
 ==========
-Your code should pass the following test cases.
-Note that it may also be run against hidden test cases not shown here.
-
--- Python cases --
 Input:
 solution.solution("abcabcabcabc")
 Output:
@@ -29,17 +19,6 @@ Output:
 
 Input:
 solution.solution("abccbaabccba")
-Output:
-    2
-
--- Java cases --
-Input:
-Solution.solution("abcabcabcabc")
-Output:
-    4
-
-Input:
-Solution.solution("abccbaabccba")
 Output:
     2
 """
