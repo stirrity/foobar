@@ -46,4 +46,4 @@ def solution(x, y):
     res = pre_sum + x
     return str(res)
     
-## In java
+## In java the res number is no larger than 500,000,000 is actually within the range of Integer. So no need to write a specific function to do string caculation.
